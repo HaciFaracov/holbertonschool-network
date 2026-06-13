@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Displays the machine's active network interfaces
+ifconfig | grep 'flags' | cut -d: -f1
